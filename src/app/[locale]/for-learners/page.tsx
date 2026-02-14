@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default function ForLearnersPage() {
   const t = useTranslations('learners');
 
-  const cipSteps = t.raw('cipSection.steps') as Array<{ label: string; description: string }>;
+  const learningSteps = t.raw('learningFlow.steps') as Array<{ label: string; description: string }>;
   const dashboardItems = t.raw('dashboardSection.items') as string[];
   const dimensions = t.raw('progressSection.dimensions') as string[];
 
@@ -31,14 +31,14 @@ export default function ForLearnersPage() {
         </div>
       </section>
 
-      {/* CIP Flow */}
+      {/* Learning Flow */}
       <section className="py-section bg-muted/50 dark:bg-secondary/50">
         <div className="container-custom max-w-4xl">
           <FadeIn>
-            <h2 className="text-center mb-12">{t('cipSection.title')}</h2>
+            <h2 className="text-center mb-12">{t('learningFlow.title')}</h2>
           </FadeIn>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {cipSteps.map((step, i) => (
+            {learningSteps.map((step, i) => (
               <FadeIn key={i} delay={i * 100}>
                 <div className="relative">
                   <AnimatedCard className="p-6 text-center h-full">
@@ -46,7 +46,7 @@ export default function ForLearnersPage() {
                     <h4 className="text-base font-semibold mb-2">{step.label}</h4>
                     <p className="text-sm text-text">{step.description}</p>
                   </AnimatedCard>
-                  {i < cipSteps.length - 1 && (
+                  {i < learningSteps.length - 1 && (
                     <ArrowRight className="hidden lg:block absolute top-1/2 -right-4 w-5 h-5 text-accent -translate-y-1/2 z-20" />
                   )}
                 </div>

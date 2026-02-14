@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     template: "%s | The Living Textbook",
   },
   description: "A curriculum that learns from you. Powered by AI. Guided by neuroscience. Built by educators, for educators.",
-  keywords: ["language learning", "EdTech", "AI curriculum", "language teaching", "CIP", "The Living Textbook", "LokaLingo", "BYOK"],
+  keywords: ["language learning", "EdTech", "AI curriculum", "language teaching", "The Living Textbook", "LokaLingo", "BYOK", "conversations become curriculum"],
   authors: [{ name: "LokaLingo" }],
   creator: "LokaLingo",
   metadataBase: new URL("https://thelivingtextbook.lokalingo.com"),

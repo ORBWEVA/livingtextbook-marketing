@@ -1,0 +1,303 @@
+{
+  "nav": {
+    "features": "Features",
+    "educators": "For Educators",
+    "learners": "For Learners",
+    "cta": "Start Free",
+    "language": "Language",
+    "theme": "Theme"
+  },
+  "footer": {
+    "tagline": "A curriculum that learns from you. Powered by AI. Guided by neuroscience.",
+    "productTitle": "Product",
+    "lokaTitleCol": "LokaLingo",
+    "legalTitle": "Legal",
+    "login": "Login",
+    "lokaSite": "lokalingo.com",
+    "blog": "Blog",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+    "copyright": "\u682a\u5f0f\u4f1a\u793e 6011001118444 / ORBWEVA ABN 62159782318"
+  },
+  "home": {
+    "hero": {
+      "title": "The Living Textbook",
+      "subtitle": "A curriculum that learns from you. Powered by AI. Guided by neuroscience. Built by educators, for educators.",
+      "primaryCta": "Start Free",
+      "secondaryCta": "See Features"
+    },
+    "pillars": {
+      "sectionTitle": "Three Pillars of Learning",
+      "nurture": {
+        "title": "NURTURE",
+        "subtitle": "Co-Active Learning Environment",
+        "description": "Empowering educators through co-active learning",
+        "bullets": [
+          "Neuroscience-based coaching principles",
+          "The Canvas starts blank \u2014 no assumptions about the learner",
+          "Growth mindset reinforcement embedded in AI",
+          "Cultural context respected in every interaction"
+        ]
+      },
+      "guide": {
+        "title": "GUIDE",
+        "subtitle": "CEFR-Aligned Adaptive Assessment",
+        "description": "Engaging learners through CEFR-aligned adaptive assessment",
+        "bullets": [
+          "5-dimension assessment model (CA, FP, LC, V, GA)",
+          "SMART goals mapped to internationally recognized CEFR levels",
+          "Real-time level recommendations: maintain / promote / review",
+          "Progress transparency between educator and learner"
+        ]
+      },
+      "accelerate": {
+        "title": "ACCELERATE",
+        "subtitle": "AI-Powered Learning Tools",
+        "description": "Accelerating learning through AI-powered tools",
+        "bullets": [
+          "Spaced repetition (SM-2 algorithm) targeting actual weak points",
+          "Auto-generated quizzes from real session CIPs",
+          "Gamification: points, streaks, milestones",
+          "BYOK: Bring Your Own Key \u2014 extend with your own AI"
+        ]
+      }
+    },
+    "byok": {
+      "title": "Your Platform, Your AI, Your Rules",
+      "description": "Educators and learners bring their own API keys to extend The Living Textbook with any AI provider \u2014 OpenAI, Anthropic, Google, or others.",
+      "cards": [
+        {
+          "title": "For Educators",
+          "description": "Build custom AI assessment prompts using your preferred model"
+        },
+        {
+          "title": "For Learners",
+          "description": "Practice with AI conversation partners tailored to your level"
+        },
+        {
+          "title": "For Schools",
+          "description": "Integrate your existing AI infrastructure \u2014 no vendor lock-in"
+        }
+      ],
+      "beta": "BYOK is in development. Early access available for beta testers."
+    },
+    "canvas": {
+      "title": "Every Lesson Writes Its Own Textbook",
+      "message": "The Canvas starts empty because no learner should inherit someone else's curriculum.",
+      "items": [
+        {
+          "abbr": "ARP",
+          "title": "Active Recall Pair",
+          "description": "Q&A pairs for spaced repetition practice"
+        },
+        {
+          "abbr": "CIP",
+          "title": "Correct/Incorrect Phrase",
+          "description": "Error corrections from real conversations"
+        },
+        {
+          "abbr": "KW",
+          "title": "Keyword",
+          "description": "Vocabulary with context and examples"
+        },
+        {
+          "abbr": "NOTE",
+          "title": "Note",
+          "description": "General observations and teaching notes"
+        }
+      ]
+    },
+    "assessment": {
+      "title": "Five Dimensions. One Complete Picture.",
+      "description": "AI analyzes real lesson transcripts to generate assessments automatically \u2014 freeing educators to focus on teaching, not paperwork.",
+      "levels": "Level recommendations: Maintain / Promote / Review",
+      "dimensions": [
+        { "abbr": "CA", "title": "Communicative Ability" },
+        { "abbr": "FP", "title": "Fluency & Pronunciation" },
+        { "abbr": "LC", "title": "Listening Comprehension" },
+        { "abbr": "V", "title": "Vocabulary" },
+        { "abbr": "GA", "title": "Grammar Accuracy" }
+      ]
+    },
+    "tabs": {
+      "educatorTab": "For Educators",
+      "learnerTab": "For Learners",
+      "educator": {
+        "items": [
+          "Dashboard overview: manage students, bookings, canvas, assessments",
+          "AI-generated curriculum saves hours per week",
+          "CEFR-aligned progress tracking for every student",
+          "$6/seat \u2014 keep your earnings, build your brand"
+        ],
+        "cta": "Start Teaching"
+      },
+      "learner": {
+        "items": [
+          "Personalized curriculum from your real conversations",
+          "See your progress across 5 skill dimensions",
+          "AI-generated review material targets your actual weak points",
+          "Book lessons, track progress, own your learning journey"
+        ],
+        "cta": "Start Learning"
+      }
+    },
+    "testimonials": {
+      "title": "What People Say",
+      "items": [
+        {
+          "quote": "Loka has transformed my teaching. I can structure lessons my way and focus on my students\u2019 progress without worrying about high fees.",
+          "name": "Julio Marchand",
+          "title": "Language Teacher in Japan"
+        },
+        {
+          "quote": "The flexibility and goal-focused approach fit perfectly into my busy schedule.",
+          "name": "Masamichi Y.",
+          "title": "CEO at Perverz"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Every correction inspires progress. Start yours today.",
+      "primaryCta": "Start Free",
+      "secondaryCta": "Book a Demo"
+    }
+  },
+  "features": {
+    "hero": {
+      "title": "Platform Features",
+      "subtitle": "Everything you need to teach, learn, and grow \u2014 in one platform."
+    },
+    "cards": [
+      {
+        "title": "Canvas System",
+        "description": "A blank slate that fills with real lesson content \u2014 CIPs, ARPs, keywords, and notes. Every session builds a unique, personalized textbook."
+      },
+      {
+        "title": "AI Assessment Engine",
+        "description": "5-dimension assessment model analyzes real lesson transcripts automatically. Supports both AI-generated and manual assessments with CEFR alignment."
+      },
+      {
+        "title": "Student Management",
+        "description": "Complete student profiles with progress history, CEFR levels, and learning analytics. Track every learner's journey from day one."
+      },
+      {
+        "title": "Booking System",
+        "description": "Built-in scheduling with calendar integration, automated reminders, and timezone support. iCalendar invites for Gmail and Outlook."
+      },
+      {
+        "title": "Spaced Repetition",
+        "description": "SM-2 algorithm targets actual weak points from real sessions. Auto-generated quizzes ensure lasting retention."
+      },
+      {
+        "title": "CEFR Levels",
+        "description": "Internationally recognized framework for consistent, meaningful assessment. A1 through C2 with granular sub-level tracking."
+      },
+      {
+        "title": "Multi-Language (i18n)",
+        "description": "Full platform interface available in English, Japanese, and Korean. Teach any language \u2014 the tools are language-agnostic."
+      },
+      {
+        "title": "BYOK AI Integration",
+        "description": "Bring Your Own Key \u2014 connect your OpenAI or Anthropic API keys to extend the platform with custom AI features. No vendor lock-in."
+      },
+      {
+        "title": "API for Schools",
+        "description": "RESTful API with per-teacher authentication tokens. Integrate The Living Textbook with your existing school infrastructure."
+      }
+    ]
+  },
+  "educators": {
+    "hero": {
+      "title": "Built for Educators Who Want Control",
+      "subtitle": "Canvas workflow, AI-powered assessment, student management, and flat $6/seat pricing. No commissions. Your brand, your students, your earnings."
+    },
+    "canvasSection": {
+      "title": "The Canvas Workflow",
+      "description": "During each lesson, capture corrections, keywords, and teaching notes on a blank Canvas. AI transforms these into personalized review material, quizzes, and spaced repetition drills \u2014 automatically.",
+      "items": [
+        "Capture CIPs (Correct/Incorrect Phrases) in real time",
+        "Add ARPs (Active Recall Pairs) for spaced repetition",
+        "Tag keywords with context and examples",
+        "AI generates assessment from session content"
+      ]
+    },
+    "aiSection": {
+      "title": "AI Assessment That Saves Hours",
+      "description": "Five-dimension assessment model evaluates Communicative Ability, Fluency, Listening, Vocabulary, and Grammar. AI generates assessments from real lesson transcripts \u2014 you review and approve.",
+      "dimensions": ["Communicative Ability", "Fluency & Pronunciation", "Listening Comprehension", "Vocabulary", "Grammar Accuracy"]
+    },
+    "managementSection": {
+      "title": "Student Management Made Simple",
+      "items": [
+        "Complete student profiles with CEFR levels",
+        "Progress tracking across all 5 dimensions",
+        "Booking management with calendar sync",
+        "Automated email reminders and iCal invites",
+        "Credit and package management"
+      ]
+    },
+    "earnings": {
+      "title": "Keep What You Earn",
+      "subtitle": "See how Loka compares to commission-based platforms",
+      "headers": ["Students", "Student Pays", "Loka Cost", "You Keep", "Commission Platform"],
+      "rows": [
+        ["10", "$50/mo each", "$60/mo", "$440 (88%)", "$300 (60%)"],
+        ["25", "$50/mo each", "$150/mo", "$1,100 (88%)", "$750 (60%)"],
+        ["50", "$50/mo each", "$300/mo", "$2,200 (88%)", "$1,500 (60%)"],
+        ["100", "$50/mo each", "$600/mo", "$4,400 (88%)", "$3,000 (60%)"]
+      ]
+    },
+    "cta": {
+      "title": "Start Teaching with The Living Textbook",
+      "subtitle": "Your brand. Your students. Your earnings.",
+      "button": "Start Free"
+    }
+  },
+  "learners": {
+    "hero": {
+      "title": "A Curriculum Built Just for You",
+      "subtitle": "Your real conversations shape your learning. Every correction becomes your next lesson. Every session makes you stronger."
+    },
+    "cipSection": {
+      "title": "How CIP Personalizes Your Learning",
+      "steps": [
+        { "label": "Conversation", "description": "You have a real conversation with your teacher" },
+        { "label": "Correction", "description": "Your teacher captures your errors on the Canvas" },
+        { "label": "AI Generation", "description": "AI creates personalized review material from your CIPs" },
+        { "label": "Mastery", "description": "Spaced repetition ensures you retain what you learn" }
+      ]
+    },
+    "dashboardSection": {
+      "title": "Your Student Dashboard",
+      "items": [
+        "See your progress across 5 skill dimensions",
+        "Review personalized Canvas content after every lesson",
+        "Track your CEFR level progression over time",
+        "Access AI-generated quizzes targeting your weak points",
+        "Book lessons and manage your schedule"
+      ]
+    },
+    "spacedRepSection": {
+      "title": "Spaced Repetition That Works",
+      "description": "The SM-2 algorithm schedules review of your CIPs and ARPs at optimal intervals. You practice what you need, when you need it \u2014 not generic flashcards, but content from your actual lessons."
+    },
+    "progressSection": {
+      "title": "Five Dimensions of Progress",
+      "description": "Track your growth across Communicative Ability, Fluency & Pronunciation, Listening Comprehension, Vocabulary, and Grammar Accuracy. Clear, measurable, CEFR-aligned.",
+      "dimensions": ["Communicative Ability", "Fluency & Pronunciation", "Listening Comprehension", "Vocabulary", "Grammar Accuracy"]
+    },
+    "cta": {
+      "title": "Start Learning with The Living Textbook",
+      "subtitle": "Experience a curriculum built from your real conversations.",
+      "button": "Start Free"
+    }
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "startFree": "Start Free",
+    "bookDemo": "Book a Demo"
+  }
+}

@@ -299,5 +299,13 @@
     "getStarted": "Get Started",
     "startFree": "Start Free",
     "bookDemo": "Book a Demo"
+  },
+  "blog": {
+    "pageTitle": "Loka Blog",
+    "pageSubtitle": "Insights on language teaching, EdTech innovation, and the future of education",
+    "backToBlog": "Back to Blog",
+    "readMore": "Read More",
+    "noPosts": "No posts yet. Check back soon!",
+    "posts": {}
   }
 }

@@ -40,7 +40,16 @@ export interface BlogMessages {
 
 // Blog posts array - n8n workflow prepends new posts here
 // DO NOT manually edit - changes will be overwritten by automation
-export const blogPosts: BlogPostMeta[] = [];
+export const blogPosts: BlogPostMeta[] = [
+  {
+    id: 'loka-1771077825805',
+    slug: 'interactive-whiteboard-language-teaching-20260215',
+    date: '2026-02-14',
+    category: 'Platform',
+    readTime: '8 min read',
+    author: 'Ryan Ahamer',
+    heroImage: '/images/blog/default-hero.jpg',
+  },];
 
 // Helper: get localized slug or fallback to base slug
 export function getLocalizedSlug(post: BlogPostMeta, locale: string): string {

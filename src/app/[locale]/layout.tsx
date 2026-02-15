@@ -25,28 +25,6 @@ const jetbrainsMono = JetBrains_Mono({
   variable: '--font-jetbrains',
 });
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "WebApplication",
-  name: "The Living Textbook",
-  alternateName: "Loka The Living Textbook",
-  url: "https://thelivingtextbook.lokalingo.com",
-  description: "AI-powered language learning platform that builds a personalized curriculum from real conversations. Canvas system, 5-dimension AI assessment, CEFR-aligned progress tracking.",
-  applicationCategory: "EducationalApplication",
-  operatingSystem: "Web",
-  offers: {
-    "@type": "Offer",
-    price: "6.00",
-    priceCurrency: "USD",
-    description: "Per active seat, per month",
-  },
-  creator: {
-    "@type": "Organization",
-    name: "LokaLingo",
-    url: "https://lokalingo.com",
-  },
-};
-
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
@@ -63,6 +41,29 @@ export default async function LocaleLayout({
   if (!locales.includes(locale as Locale)) {
     notFound();
   }
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name: "The Living Textbook",
+    alternateName: "Loka The Living Textbook",
+    url: "https://thelivingtextbook.lokalingo.com",
+    description: "AI-powered language learning platform that builds a personalized curriculum from real conversations. Canvas system, 5-dimension AI assessment, CEFR-aligned progress tracking.",
+    applicationCategory: "EducationalApplication",
+    operatingSystem: "Web",
+    inLanguage: locale,
+    offers: {
+      "@type": "Offer",
+      price: "6.00",
+      priceCurrency: "USD",
+      description: "Per active seat, per month",
+    },
+    creator: {
+      "@type": "Organization",
+      name: "LokaLingo",
+      url: "https://lokalingo.com",
+    },
+  };
 
   const messages = await getMessages();
 

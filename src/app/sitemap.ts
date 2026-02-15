@@ -21,9 +21,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: page === '' ? 'weekly' : 'monthly',
         priority: page === '' ? 1.0 : 0.8,
         alternates: {
-          languages: Object.fromEntries(
-            locales.map((l) => [l, `${baseUrl}/${l}${page}`])
-          ),
+          languages: {
+            ...Object.fromEntries(
+              locales.map((l) => [l, `${baseUrl}/${l}${page}`])
+            ),
+            'x-default': `${baseUrl}/en${page}`,
+          },
         },
       });
     }

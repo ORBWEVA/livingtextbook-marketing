@@ -7,7 +7,7 @@ import { getPageSeo } from '@/lib/seo';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  return getPageSeo('educators', locale);
+  return getPageSeo('educators', locale, '/for-educators');
 }
 
 export default function ForEducatorsPage() {

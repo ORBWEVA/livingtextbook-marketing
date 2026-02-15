@@ -8,7 +8,7 @@ const featureIcons = [PenLine, Brain, Users, Calendar, RefreshCw, Award, Globe, 
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  return getPageSeo('features', locale);
+  return getPageSeo('features', locale, '/features');
 }
 
 export default function FeaturesPage() {

@@ -16,6 +16,7 @@ export function Footer() {
       { name: tNav('educators'), href: `/${locale}/for-educators` },
       { name: tNav('learners'), href: `/${locale}/for-learners` },
       { name: t('login'), href: '/login' },
+      { name: t('docs'), href: 'https://docs.lokalingo.com' },
     ],
     lokalingo: [
       { name: t('lokaSite'), href: 'https://lokalingo.com' },

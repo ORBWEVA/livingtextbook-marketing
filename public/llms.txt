@@ -1,0 +1,21 @@
+# The Living Textbook
+
+> Where Conversations Become Curriculum. AI-powered language learning platform by LokaLingo — Canvas whiteboard captures real lessons, 5-dimension AI assessment engine evaluates progress, and spaced repetition builds lasting fluency. Built by educators, for educators.
+
+## Pages
+
+- [Home](https://thelivingtextbook.lokalingo.com/en): Platform overview — Canvas system, AI assessment, learning loop
+- [Features](https://thelivingtextbook.lokalingo.com/en/features): Canvas, AI assessment, spaced repetition, CEFR tracking, BYOK AI
+- [For Educators](https://thelivingtextbook.lokalingo.com/en/for-educators): Teaching tools, student management, $6/seat pricing
+- [For Learners](https://thelivingtextbook.lokalingo.com/en/for-learners): Progress tracking, 5 skill dimensions, personalized curriculum
+- [Blog](https://thelivingtextbook.lokalingo.com/en/blog): Learning science, AI education, teaching methods, platform updates
+
+## Related
+
+- [LokaLingo](https://lokalingo.com/en): Parent brand — pricing, story, contact
+- [Documentation](https://docs.lokalingo.com): Full product documentation
+
+## Optional
+
+- [日本語](https://thelivingtextbook.lokalingo.com/ja): Japanese version
+- [한국어](https://thelivingtextbook.lokalingo.com/ko): Korean version

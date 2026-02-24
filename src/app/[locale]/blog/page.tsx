@@ -7,18 +7,24 @@ import { BlogPostList } from '@/components/blog/BlogPostList';
 
 type Props = { params: Promise<{ locale: string }> };
 
+function getOgLocale(locale: string): string {
+  if (locale === 'ja') return 'ja_JP';
+  if (locale === 'ko') return 'ko_KR';
+  return 'en_US';
+}
+
 const blogSeo: Record<string, { title: string; description: string }> = {
   en: {
-    title: 'Blog | The Living Textbook',
+    title: 'Blog - Language Learning Science & AI Education',
     description: 'Insights on language learning science, AI-powered education, teaching methods, and the future of EdTech from The Living Textbook team.',
   },
   ja: {
-    title: 'ブログ | ザ・リビング テキストブック',
-    description: '言語学習科学、AI教育、教授法、EdTechの未来に関するインサイト。',
+    title: 'ブログ - 語学学習科学とAI教育',
+    description: 'The Living Textbookチームによる語学学習科学、AI搭載教育、教授法、EdTechの未来に関する最新インサイトをお届けします。',
   },
   ko: {
-    title: '블로그 | 더 리빙 텍스트북',
-    description: '언어 학습 과학, AI 교육, 교수법, EdTech의 미래에 대한 인사이트.',
+    title: '블로그 - 어학 학습 과학과 AI 교육',
+    description: 'The Living Textbook 팀이 전하는 어학 학습 과학, AI 교육, 교수법, EdTech의 미래에 대한 최신 인사이트를 확인하세요.',
   },
 };
 
@@ -43,8 +49,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: seo.description,
       url: `${siteConfig.url}/${locale}/blog`,
       siteName: siteConfig.name,
+      locale: getOgLocale(locale),
       type: 'website',
       images: [{ url: `${siteConfig.url}/logo.png`, width: 1200, height: 630, alt: siteConfig.name }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: seo.title,
+      description: seo.description,
+      images: [`${siteConfig.url}/logo.png`],
     },
   };
 }

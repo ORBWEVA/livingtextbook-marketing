@@ -21,12 +21,12 @@ export function Footer() {
     lokalingo: [
       { name: t('lokaSite'), href: 'https://lokalingo.com' },
       { name: t('blog'), href: `/${locale}/blog` },
-      { name: t('contact'), href: 'https://lokalingo.com/en/contact' },
+      { name: t('contact'), href: `https://lokalingo.com/${locale}/contact` },
     ],
     legal: [
-      { name: t('privacy'), href: 'https://lokalingo.com/en/privacy' },
-      { name: t('terms'), href: 'https://lokalingo.com/en/terms' },
-      { name: t('cookies'), href: 'https://lokalingo.com/en/cookies' },
+      { name: t('privacy'), href: `https://lokalingo.com/${locale}/privacy` },
+      { name: t('terms'), href: `https://lokalingo.com/${locale}/terms` },
+      { name: t('cookies'), href: `https://lokalingo.com/${locale}/cookies` },
     ],
   };
 

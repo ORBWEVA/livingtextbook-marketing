@@ -42,7 +42,7 @@ export default async function LocaleLayout({
     notFound();
   }
 
-  const jsonLd = {
+  const webAppSchema = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "The Living Textbook",
@@ -57,12 +57,42 @@ export default async function LocaleLayout({
       price: "6.00",
       priceCurrency: "USD",
       description: "Per active seat, per month",
+      availability: "https://schema.org/InStock",
     },
     creator: {
       "@type": "Organization",
       name: "LokaLingo",
       url: "https://lokalingo.com",
     },
+  };
+
+  const orgSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "LokaLingo",
+    alternateName: "Accent Language 株式会社",
+    url: "https://lokalingo.com",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://lokalingo.com/logo.png",
+      width: 512,
+      height: 512,
+    },
+    foundingDate: "2003",
+    contactPoint: {
+      "@type": "ContactPoint",
+      email: "ryan@lokalingo.com",
+      contactType: "customer support",
+    },
+    sameAs: [],
+  };
+
+  const webSiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "The Living Textbook",
+    url: "https://thelivingtextbook.lokalingo.com",
+    inLanguage: locale,
   };
 
   const messages = await getMessages();
@@ -72,7 +102,15 @@ export default async function LocaleLayout({
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(webAppSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteSchema) }}
         />
       </head>
       <body className={`${exo2.variable} ${notoSansJP.variable} ${jetbrainsMono.variable} antialiased min-h-screen flex flex-col font-sans`}>

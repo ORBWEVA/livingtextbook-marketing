@@ -29,16 +29,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: 'Post Not Found' };
   }
 
+  const meta = blogPosts.find(p => p.slug === slug || p.slugs?.ja === slug || p.slugs?.ko === slug);
+  const ogLocale = locale === 'ja' ? 'ja_JP' : locale === 'ko' ? 'ko_KR' : 'en_US';
+  const ogImages = post.heroImage
+    ? [{ url: post.heroImage, width: 1200, height: 630, alt: post.title }]
+    : [{ url: `${siteConfig.url}/logo.png`, width: 1200, height: 630, alt: siteConfig.name }];
+
   return {
-    title: `${post.title} | The Living Textbook`,
+    title: post.title,
     description: post.excerpt,
     alternates: {
       canonical: `${siteConfig.url}/${locale}/blog/${slug}`,
       languages: {
-        en: `${siteConfig.url}/en/blog/${slug}`,
-        ja: `${siteConfig.url}/ja/blog/${slug}`,
-        ko: `${siteConfig.url}/ko/blog/${slug}`,
-        'x-default': `${siteConfig.url}/en/blog/${slug}`,
+        en: `${siteConfig.url}/en/blog/${meta?.slug || slug}`,
+        ja: `${siteConfig.url}/ja/blog/${meta ? getLocalizedSlug(meta, 'ja') : slug}`,
+        ko: `${siteConfig.url}/ko/blog/${meta ? getLocalizedSlug(meta, 'ko') : slug}`,
+        'x-default': `${siteConfig.url}/en/blog/${meta?.slug || slug}`,
       },
     },
     openGraph: {
@@ -46,12 +52,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: post.excerpt,
       url: `${siteConfig.url}/${locale}/blog/${slug}`,
       siteName: siteConfig.name,
+      locale: ogLocale,
       type: 'article',
       publishedTime: post.date,
       authors: [post.author],
-      images: post.heroImage
-        ? [{ url: post.heroImage, width: 1200, height: 630, alt: post.title }]
-        : [{ url: `${siteConfig.url}/logo.png`, width: 1200, height: 630, alt: siteConfig.name }],
+      images: ogImages,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
+      images: ogImages.map(img => img.url),
     },
     authors: [{ name: post.author }],
   };

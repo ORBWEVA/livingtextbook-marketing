@@ -78,7 +78,7 @@ export const blogPosts: BlogPostMeta[] = [
     category: 'Platform',
     readTime: '12 min read',
     author: 'Ryan Ahamer',
-    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771756206753.png',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771756206753.png?v=2',
   },
   {
     id: 'loka-1771669807772',
@@ -104,7 +104,7 @@ export const blogPosts: BlogPostMeta[] = [
     category: 'Technology',
     readTime: '12 min read',
     author: 'Ryan Ahamer',
-    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771583407497.png',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771583407497.png?v=2',
   },
   {
     id: 'loka-1771497006991',
@@ -139,7 +139,7 @@ export const blogPosts: BlogPostMeta[] = [
     category: 'AI',
     readTime: '9 min read',
     author: 'Ryan Ahamer',
-    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771297210445.png',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771297210445.png?v=3',
   },
   {
     id: 'loka-1771237807261',
@@ -152,7 +152,7 @@ export const blogPosts: BlogPostMeta[] = [
     category: 'Learning Science',
     readTime: '8 min read',
     author: 'Ryan Ahamer',
-    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771237807261.png?v=2',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771237807261.png?v=3',
   },
   {
     id: 'loka-1771077825805',

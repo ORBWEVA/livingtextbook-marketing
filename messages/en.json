@@ -175,6 +175,51 @@
         }
       ]
     },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is The Living Textbook?",
+          "answer": "The Living Textbook is an AI-powered language learning platform that turns real conversations into personalized curriculum. During live lessons, educators capture correction pairs on a digital Canvas, and AI generates adaptive review material aligned to CEFR levels (A1–C2)."
+        },
+        {
+          "question": "How does AI-powered language assessment work?",
+          "answer": "The platform uses Claude (Anthropic) or ChatGPT (OpenAI) — your choice — to assess learner performance across 5 dimensions: Grammar, Vocabulary, Fluency, Pronunciation, and Interaction. Each assessment maps to CEFR levels and generates personalized review recommendations."
+        },
+        {
+          "question": "What does BYOK (Bring Your Own Key) mean?",
+          "answer": "BYOK lets educators connect their own Anthropic or OpenAI API key instead of paying markup on AI features. This keeps AI costs transparent — typically under $0.02 per assessment — and gives you full control over which AI provider to use."
+        },
+        {
+          "question": "How is The Living Textbook different from italki, Preply, or Cambly?",
+          "answer": "Unlike marketplace platforms that take 15–40% commission per lesson, The Living Textbook charges a flat $6/seat/month with zero commission. Educators keep nearly 94% of their earnings and fully own their curriculum, student relationships, and pricing."
+        },
+        {
+          "question": "What is the Canvas system?",
+          "answer": "The Canvas is a real-time digital whiteboard where educators capture Correct phrases, Incorrect phrases, Pronunciation notes, and Vocabulary during live lessons. After the session, AI transforms these captures into structured review material with spaced repetition scheduling."
+        },
+        {
+          "question": "Can I use ChatGPT or Claude for language teaching?",
+          "answer": "Yes. The Living Textbook integrates both OpenAI (ChatGPT) and Anthropic (Claude) through BYOK. Educators choose their preferred provider in settings, and the platform uses it for lesson assessment, adaptive review generation, and learning analytics — all at direct API cost."
+        },
+        {
+          "question": "How much does The Living Textbook cost?",
+          "answer": "$6 per active seat per month, with a 14-day free trial including 1 educator seat and 1 learner seat — no credit card required. There are no setup fees, no commissions, and no hidden costs. Additional seats are $6/month each."
+        },
+        {
+          "question": "Is The Living Textbook suitable for language schools?",
+          "answer": "Yes. Language schools can manage multiple educators and learners under one account. Each educator gets their own Canvas workspace, student list, and booking calendar — all at the same flat $6/seat pricing with no per-lesson commissions."
+        },
+        {
+          "question": "What is neuroscience-based language learning?",
+          "answer": "The Living Textbook applies research on memory consolidation, spaced repetition, and co-active learning. Correction pairs from real conversations are reviewed at scientifically optimized intervals based on the forgetting curve, strengthening long-term retention."
+        },
+        {
+          "question": "Does The Living Textbook support Japanese and Korean?",
+          "answer": "Yes. The platform interface is available in English, Japanese, and Korean. AI assessment works with any language pair, and the Canvas system supports all writing systems including kanji, hiragana, katakana, and hangul."
+        }
+      ]
+    },
     "finalCta": {
       "title": "Every conversation builds your textbook. Start yours today.",
       "primaryCta": "Log In",

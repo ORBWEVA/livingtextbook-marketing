@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Heart, Compass, Zap, Key, PenLine, Brain, CheckCircle, Quote } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { AnimatedCard, FadeIn } from '@/components/ui/animated-card';
+import { FAQAccordion } from '@/components/faq/FAQAccordion';
 import { useState } from 'react';
 
 const pillarIcons = { nurture: Heart, guide: Compass, accelerate: Zap };
@@ -220,6 +221,21 @@ export default function HomeContent() {
               </FadeIn>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-section bg-muted/50 dark:bg-secondary/50">
+        <div className="container-custom">
+          <FadeIn>
+            <h2 className="text-center mb-12">{t('faq.title')}</h2>
+          </FadeIn>
+          <FAQAccordion
+            categories={[{
+              title: '',
+              items: (t.raw('faq.items') as Array<{ question: string; answer: string }>),
+            }]}
+          />
         </div>
       </section>
 

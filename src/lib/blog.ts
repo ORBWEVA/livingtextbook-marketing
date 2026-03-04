@@ -42,6 +42,15 @@ export interface BlogMessages {
 // DO NOT manually edit - changes will be overwritten by automation
 export const blogPosts: BlogPostMeta[] = [
   {
+    id: 'loka-1772568306984',
+    slug: 'independent-language-teacher-tools-2026-20260304',
+    date: '2026-03-04',
+    category: 'Teaching',
+    readTime: '10 min read',
+    author: 'Ryan Ahamer',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1772568306984.png',
+  },
+  {
     id: 'loka-1772481904715',
     slug: 'ai-language-teaching-assistant-2026-20260303',
     slugs: {

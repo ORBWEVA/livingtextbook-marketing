@@ -45,6 +45,7 @@ export const blogPosts: BlogPostMeta[] = [
     id: 'loka-1772827504163',
     slug: 'ai-powered-emotional-intelligence-tutors-revolutio-20260307',
     slugs: {
+      ko: '-2026--20260307',
       ja: 'edtech-2026--20260307',
     },
     date: '2026-03-07',

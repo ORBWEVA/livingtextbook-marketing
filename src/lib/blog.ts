@@ -42,6 +42,15 @@ export interface BlogMessages {
 // DO NOT manually edit - changes will be overwritten by automation
 export const blogPosts: BlogPostMeta[] = [
   {
+    id: 'loka-1772913904509',
+    slug: 'interactive-whiteboard-language-teaching-20260308',
+    date: '2026-03-08',
+    category: 'Platform',
+    readTime: '15 min read',
+    author: 'Ryan Ahamer',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1772913904509.png',
+  },
+  {
     id: 'loka-1772827504163',
     slug: 'ai-powered-emotional-intelligence-tutors-revolutio-20260307',
     slugs: {

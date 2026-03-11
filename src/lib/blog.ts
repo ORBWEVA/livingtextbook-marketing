@@ -44,6 +44,9 @@ export const blogPosts: BlogPostMeta[] = [
   {
     id: 'loka-1773173104333',
     slug: 'independent-language-teacher-tools-2026-20260311',
+    slugs: {
+      ja: '--20260311',
+    },
     date: '2026-03-11',
     category: 'Teaching',
     readTime: '12 min read',

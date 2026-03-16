@@ -45,6 +45,7 @@ export const blogPosts: BlogPostMeta[] = [
     id: 'loka-1773605104586',
     slug: 'spaced-repetition-language-learning-2026-20260316',
     slugs: {
+      ko: 'the-living-textbook--20260316',
       ja: 'the-living-textbook--20260316',
     },
     date: '2026-03-16',

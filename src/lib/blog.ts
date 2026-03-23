@@ -42,6 +42,15 @@ export interface BlogMessages {
 // DO NOT manually edit - changes will be overwritten by automation
 export const blogPosts: BlogPostMeta[] = [
   {
+    id: 'loka-1774209904064',
+    slug: 'spaced-repetition-language-learning-2026-20260323',
+    date: '2026-03-23',
+    category: 'Learning Science',
+    readTime: '12 min read',
+    author: 'Ryan Ahamer',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1774209904064.png',
+  },
+  {
     id: 'loka-1774123504371',
     slug: 'interactive-whiteboard-language-teaching-20260322',
     slugs: {

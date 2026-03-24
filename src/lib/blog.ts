@@ -45,6 +45,7 @@ export const blogPosts: BlogPostMeta[] = [
     id: 'loka-1774296304825',
     slug: 'ai-language-teaching-assistant-2026-20260324',
     slugs: {
+      ko: 'ai-2026-20260324',
       ja: 'ai-2026-20260324',
     },
     date: '2026-03-24',

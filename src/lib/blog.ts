@@ -45,6 +45,7 @@ export const blogPosts: BlogPostMeta[] = [
     id: 'loka-1774469104452',
     slug: 'cefr-aligned-language-assessment-tools-20260326',
     slugs: {
+      ko: 'cefr--20260326',
       ja: 'cefr--20260326',
     },
     date: '2026-03-26',

@@ -42,6 +42,15 @@ export interface BlogMessages {
 // DO NOT manually edit - changes will be overwritten by automation
 export const blogPosts: BlogPostMeta[] = [
   {
+    id: 'loka-1774469104452',
+    slug: 'cefr-aligned-language-assessment-tools-20260326',
+    date: '2026-03-26',
+    category: 'Assessment',
+    readTime: '12 min read',
+    author: 'Ryan Ahamer',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1774469104452.png',
+  },
+  {
     id: 'loka-1774382704495',
     slug: 'independent-language-teacher-tools-2026-20260325',
     slugs: {

@@ -45,6 +45,7 @@ export const blogPosts: BlogPostMeta[] = [
     id: 'loka-1774555505267',
     slug: 'language-learning-platform-comparison-2026-20260327',
     slugs: {
+      ko: 'duolingo-vs--20260327',
       ja: 'duolingo-vs--20260327',
     },
     date: '2026-03-27',

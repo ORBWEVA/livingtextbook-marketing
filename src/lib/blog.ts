@@ -45,6 +45,7 @@ export const blogPosts: BlogPostMeta[] = [
     id: 'loka-1774641904652',
     slug: 'ai-powered-tutoring-innovations-for-personalized-l-20260328',
     slugs: {
+      ko: '-2026--20260328',
       ja: 'edtech-2026--20260328',
     },
     date: '2026-03-28',
